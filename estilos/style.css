@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+ :root{
+    --cor-principal: #000000;
+    --cor-secundaria:#F6F6F6;
+    --cor-terciaria:#22D4FD;
+    --cor-quarta: #272727;
+ }
+ 
+
+
+ 
+* {
+    margin: 0;
+    padding: 0;
+ }
+
+
+body{
+    
+    background-color: var(--cor-principal);
+    color: var(--cor-secundaria);
+    box-sizing: border-box;
+
+
+}
+.titulo-destaque{ 
+    color: #25d9e6;
+
+}
+.apresentacao {
+    margin: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+.titulo_conteudo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px
+
+}
+.apresentacao_titulo {
+ font-size: 2.25rem;
+ font-family: 'Pangolin', cursive;
+}
+.tamanho_do_texto{
+    font-size: 1.5rem;
+    font-family: 'Pangolin', cursive;
+    
+}
+.apresentacao_link{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.apresentacao_links {
+   display: flex;
+   justify-content: center;
+   gap :16px;
+    border: 2px solid var(--cor-terciaria);
+   width: 50%;
+   text-align: center ;
+   border-radius: 16px;
+   font-size: 1.5rem;
+   font-weight: 600;
+   padding: 21.5px 0;
+   text-decoration: none;
+   color: var(--cor-secundaria);
+   Font-family: 'Pangolin', cursive;
+
+    
+}
+.fonteAcessaMinhasRedes{
+    font-family: 'Pangolin', cursive;
+    color:var(--cor-quarta);
+    font-weight: 400px;
+    font-size: 1.5rem;
+    
+}
+.apresentacao_links:hover{
+    background-color: #272727;
+}
+.rodape{
+    color:#000000;
+    text-align: center;
+    background-color: #22D4FD;
+    padding: 24px;
+    font-family: 'Pangolin', cursive;
+
+
+}
+.cabecalho{
+    padding :2% 0% 0% 15%;
+}
+
+
+.cabecalho_menu_{
+    display: flex;
+    gap: 80px;
+}
+.cabecalho__menu__link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #22D4FD;
+}
+.apresentacaao__imagem{
+    width: 50%;
+}
+@media (max-width: 1200px) {
+    .apresentacao {
+        flex-direction: column-reverse;
+    }
+    .cabecalho__menu__link{
+        justify-content: center;
+    }
+    .titulo_conteudo {
+        width: auto;
+    }
+    
+}
+
+
+
+
